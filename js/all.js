@@ -25,12 +25,19 @@ var swiper = new Swiper('.swiper', {
     var inputtest = document.getElementById("input").value;
     var text =document.getElementById("ptext");
     var text1 =document.getElementById("ptext1");
+    var text2 =document.getElementById("ptext2");
     if(inputtest===""||inputtest===null){
   return text.innerHTML="لطفا شماره خود را وارد کنید"
     
   }
   if(typeof inputtest==="string")
   {
-    text1.innerHTML="شماره را درست وارد کن"
+  return  text1.innerHTML="شماره را درست وارد کن"
   }
+
+  if(inputtest.length>=11||inputtest.length<=11)
+  {
+    return text2.innerHTML="شماره نامعتبر"
+  }
+  
 }
