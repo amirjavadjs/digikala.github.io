@@ -56,6 +56,10 @@
   h2,h4,h5,h6,p{
     font-size: 14px;
   }
+  .kala{
+    position: relative;
+    left: 45px;
+  }
  
  
 }
@@ -95,10 +99,7 @@
   .baner img{
     margin-left: 190px;
   }
-.kala{
-  position: relative;
-  left: 45px;
-}
+
 
   .bac{
     background-color:transparent;
@@ -108,7 +109,6 @@
    height: 150px;
  }
  
-
 
 }
 
@@ -170,4 +170,27 @@
   .ritimg1{
     width: 100%;
   }
+  }
+
+  @media (max-width: 400px) {
+   .serch input{
+     display: none;
+   }
+  }
+
+
+  @media (max-width: 462px) {
+    .kala{
+    position: relative;
+    left: 20px;
+    }
+  }
+
+
+
+  @media (min-width: 462px){
+    .kala{
+      position: relative;
+      left: 80px;
+    }
   }
