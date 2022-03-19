@@ -26,18 +26,41 @@ var swiper = new Swiper('.swiper', {
     var text =document.getElementById("ptext");
     var text1 =document.getElementById("ptext1");
     var text2 =document.getElementById("ptext2");
+    var text3 =document.getElementById("ptext3");
+    var text4 =document.getElementById("ptext4");
+    var input2 =document.getElementById("input2").value;
     if(inputtest===""||inputtest===null){
-  return text.innerHTML="لطفا شماره خود را وارد کنید"
+  return text.innerHTML="ورودی ها نامعتبر"
     
   }
-  if(typeof inputtest==="string")
+  if(typeof inputtest==="number")
   {
-  return  text1.innerHTML="شماره را درست وارد کن"
+   text1.innerHTML="نام کاربری را درست وارد کنید"
   }
 
-  if(inputtest.length>=11||inputtest.length<=11)
+  if(inputtest.length<=8)
   {
-    return text2.innerHTML="شماره نامعتبر"
+     text2.innerHTML="!نام کاربری =8 کارکتر به بالا رمز عبور =4 کارکتر به بالا" 
+    
   }
+
+if(input2.length>=4||input2.length>=6)
+{
+  return text3.innerHTML="ارسال موفقیت امیز بود"
+
+}
+
+else{
+ text4.innerHTML="کارکتر رمز عبور از 6 کمتر نباشد"
+
+}
+
+
   
 }
+
+// function autoRefresh(t)
+// 		{
+// 			setTimeout('location.reload(true)', t);
+// 			alert("صفحه refresh شد");
+// 		}

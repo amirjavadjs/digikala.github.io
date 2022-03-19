@@ -1,0 +1,16 @@
+#input01,
+#input02,
+#input03,
+#input04,
+#input05::placeholder{
+  text-align:right;
+}
+
+.input01,
+.input02,
+.input03,
+.input04,
+.input05{
+  text-align:right;
+  padding: 0px 10px;
+}

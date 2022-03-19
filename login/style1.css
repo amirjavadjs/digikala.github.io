@@ -1,0 +1,15 @@
+#input::placeholder{
+    text-align: right;
+}
+
+#input{
+    text-align: right;
+    padding: 0px 10px;
+}#input2::placeholder{
+    text-align: right;
+}
+
+#input2{
+    text-align: right;
+    padding: 0px 10px;
+}

@@ -271,15 +271,19 @@ color:rgb(110, 110, 110);
 }
 
 .inpu1{
+  /* padding: 0px 10px; */
   background-color: darkgray;
   outline: none;
   border: none;
   border-radius: 5px;
   margin-left: 5px;
+  text-align: right;
+  color:rgb(110, 110, 110);
 
 }
 
 .inpu1::placeholder{
+
   color:rgb(110, 110, 110);
   text-align:right;
   margin-left:5px ;
@@ -310,3 +314,7 @@ color:rgb(110, 110, 110);
 /* azafeee */
 
 /* swiper */
+
+/* login sin */
+
+/* login sin */
