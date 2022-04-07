@@ -1,0 +1,18 @@
+{% load static %}
+<!-- jquery -->
+<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+<!-- bootstrap js -->
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'js/all.js' %}"></script>
+<!-- script js -->
+<script src="{% static 'js/script.js' %}"></script>
+<!-- swiper -->
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        watchSlidesProgress: true,
+        slidesPerView: 3,
+    });
+</script>
