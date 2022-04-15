@@ -1,0 +1,320 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/Vazir-Bold.woff");
+  src: url("../font/Vazir-Bold.woff2") format("woff2"),
+    /* IE6-8 */ url("../font/Vazir-Light.ttf") format("ttf"); /* Chrome36+, Opera24+*/
+}
+
+body{
+  background-color: #ffffff;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Vazir;
+}
+.secshn-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#in-serch {
+  width: 500px;
+  outline: 0px;
+  display: flex;
+  direction: rtl;
+  border: white 1px solid;
+  font-family: Vazir;
+  margin-top: -12px;
+  transition: all 1.1s;
+}
+.serch {
+  color: rgb(141, 138, 138);
+  display: flex;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.nav-2{
+position: relative;
+bottom: 20px;
+}
+.nav-3,#text-map{
+  position: relative;
+  bottom:30px;
+}
+main{
+  position: relative;
+  bottom: 30px;
+}
+.img-logo{
+  margin-bottom:20px;
+}
+.icon1,
+a {
+  margin-left: 20px;
+}
+#in-serch:hover {
+  border-bottom: 3px solid skyblue;
+}
+.input::placeholder {
+  font-size: 12px;
+  color:darkgrey;
+}
+.logo {
+  margin-bottom: 10px;
+  color: rgb(90, 90, 90);
+}
+.logo a {
+  color: rgb(99, 98, 98);
+  font-size: 14px;
+  font-family: Vazir;
+  padding: 8px 2px;
+  text-decoration: none;
+}
+#img1 {
+  width: 32px;
+  height: 32px;
+}
+#bask {
+  font-size: 25px;
+}
+
+.continer {
+  display: flex;
+  justify-content: space-between;
+  display: none;
+}
+
+.li-class {
+  color: rgb(146, 144, 144);
+  font-size: 11px;
+  font-weight: 200;
+  margin-top: -24px;
+}
+
+.li-class i {
+  margin-left: 8px;
+}
+
+.map,
+a {
+  color: darkgray;
+  margin-top: 12px;
+  text-decoration: none;
+  color: rgb(87, 86, 86);
+}
+.map,
+a:hover {
+  list-style-type: none;
+  color: rgb(87, 86, 86);
+  text-decoration: none;
+}
+
+#text-map {
+  color: rgb(87, 86, 86);
+  list-style-type: none;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+#text-map i {
+  margin-left: 10px;
+  color: rgb(187, 187, 8);
+  font-size: 17px;
+}
+
+.nav-3{
+  margin-top:-5px;
+}
+
+.slaider-baner img{
+ height: 300px;
+}
+.img1{
+  margin-left:80px;
+}
+.img1 img{
+  width:40px;
+  height:40px;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+.text-log-img{
+  text-align:left;
+  margin:auto;
+  font-size: 12px;
+  margin-top:5px;
+}
+
+
+.text1{
+  margin-right:-210px;
+  margin-top:20px;
+  font-size: 12px;
+}
+
+.doc{
+  border-radius: 5px;
+}
+
+/* ban */
+
+.imgr img{
+  border-radius: 11px;
+}
+
+.textr2{
+  font-size: 20px;
+  font-style:italic;
+}
+
+.baner-img{
+  margin-right: -50px;
+}
+.img-textbar img{
+  width:70px;
+  height: 70px;
+}
+
+/* mdai */
+
+/* mdai */
+
+
+
+.imgi{
+  margin-top:50px;
+}
+.img-text-d{
+  border-radius: 0px;
+  text-align: center;
+  width: 140px;
+  justify-content: center;
+}
+.img-text-d img{
+width: 180px;
+height: 180px;
+}
+.img-1-slider img{
+  border-radius: 11px;
+}
+.img-dig img{
+width: 90px;
+height: 90px;
+}
+
+.G{
+  background: url(../img/k.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:50PX;
+}
+
+.bac{
+  background-color: rgb(231, 229, 229);
+  border-radius: 10px;
+}
+.img-textbar img{
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+}
+
+.cir{
+  position: relative;
+top:56px ;
+left: 15px;
+}
+
+.img-text-d1{
+  border: 0.1px solid rgb(160, 159, 159);
+}
+
+.ritimg1{
+  width: 100%;
+}
+
+/* swiper baner css */
+.swiper {
+  width:100%;
+  height: 180px;
+  line-height: 100px;
+  border-top: 1px solid rgb(98, 98, 98);
+  border-bottom: 1px solid rgb(98, 98, 98);
+}
+
+/* /swiper nran */
+
+/* baner */
+.img-01-slider2 img
+{
+  border-radius: 10px;
+}
+
+/* baner */
+/* payani */
+.text-02 span{
+  color:rgb(93, 93, 93);
+}
+.btn-a{
+  float:right;
+}
+.btn1{
+background-color: darkgray;
+color:rgb(110, 110, 110);
+
+}
+
+.inpu1{
+  /* padding: 0px 10px; */
+  background-color: darkgray;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  text-align: right;
+  color:rgb(110, 110, 110);
+
+}
+
+.inpu1::placeholder{
+
+  color:rgb(110, 110, 110);
+  text-align:right;
+  margin-left:5px ;
+}
+/* payani */
+/* icon */
+.icon-i i{
+  list-style: none;
+  font-size: 40px;
+  color: darkgray;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+/* icon */
+
+/* gabl bak */
+.img0101{
+  background-color: rgb(228, 226, 226);
+  width: 120px;
+  padding:20px 10px;
+  text-align: center;
+  margin-right: 5px;
+}
+/* gabl bak */
+
+/* azafeee */
+
+/* azafeee */
+
+/* swiper */
+
+/* login sin */
+
+/* login sin */

@@ -25,7 +25,7 @@ urlpatterns = [
     path('header', header, name="header"),
     path('footer', footer, name="footer"),
     path('admin/', admin.site.urls),
-    # path('', include("DigikalaAccounts")),
+    path('', include("DigikalaAccounts.urls")),
 ]
 
 if settings.DEBUG:

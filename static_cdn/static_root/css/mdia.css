@@ -1,0 +1,199 @@
+@media (max-width: 576px) {
+  .slaider-baner img{
+    height: 90px;
+  }
+}
+@media (max-width: 768px) {
+  .imgicon p{
+   font-size: 16px;
+  }
+  .imgi{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 992px) { 
+  .baner{
+  margin-right:170px;
+}
+
+}
+@media (max-width: 1000px) {
+  #img1 {
+    display: none;
+  }
+  #a-tag {
+    display: none;
+  }
+  #a-tag2 {
+    display: block;
+  }
+  .nav1 {
+    display: flex;
+  }
+  .continer {
+    display: flex;
+  }
+  .nav-3 {
+    display: none;
+  }
+  #text-map {
+    float: right;
+    margin-right: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  #text-map i {
+    margin-left: 6px;
+    font-size: 18px;
+    color: rgb(187, 187, 8);
+  }
+  .input::placeholder {
+    font-size: 15px;
+  }
+  .slaider-baner img{
+    height: 200px;
+  }
+  .baner{
+    margin-right:50px;
+  }
+  h2,h4,h5,h6,p{
+    font-size: 14px;
+  }
+  .kala{
+    position: relative;
+    left: 45px;
+  }
+ 
+ 
+}
+@media (min-width: 1000px) {
+  #input1 {
+    width: 500px;
+  }
+  #input1::placeholder {
+    font-size: 10px;
+  }
+  #h4-1 {
+    display: none;
+  }
+   .img-text-d1{
+    border: none;
+  }
+  
+ 
+}
+@media (min-width: 1200px) {}
+
+@media (max-width: 880px) {
+  .baner img{
+    margin-left: 40px;
+  }
+}
+
+
+@media (max-width: 870px) {
+  .baner img{
+    margin-left: 10px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .baner img{
+    margin-left: 190px;
+  }
+
+
+  .bac{
+    background-color:transparent;
+  }
+ .swiper
+ {
+   height: 150px;
+ }
+ 
+
+}
+
+
+
+@media (max-width: 700px) {
+  .baner img{
+    margin-left: 220px;
+
+  }
+  .tex01,.tex02,.tex03,.tex04{
+  padding:0px 50px;
+  margin-right:5px;
+  }
+  .img-textbar{
+    margin-left: -82px;
+  }
+
+
+  .imgi{
+    flex-wrap: wrap;
+  }
+  .text-02{
+    font-size: 12px;
+   line-height: 60px;
+  }
+  .text-log-01 p{
+    font-size: 10px;
+  }
+  .form01{
+    margin-left: 60px;
+  }
+ 
+}
+
+
+@media (max-width: 779px) {
+  .img-l{
+    margin: auto auto;
+    display: flex;
+  }
+
+  .tex01,.tex02,.tex03,.tex04{
+  line-height: 30px;
+  }
+
+  .img-text-d img{
+    width: 80px;
+    height: 80px;
+  }
+
+  .img-text-d {
+    width:130px;
+  }
+  .imgicon P{
+    font-size:12px ;
+  }
+
+  .ritimg1{
+    width: 100%;
+  }
+  }
+
+  @media (max-width: 400px) {
+   .serch input{
+     display: none;
+   }
+  }
+
+
+  @media (max-width: 462px) {
+    .kala{
+    position: relative;
+    left: 20px;
+    }
+  }
+
+
+
+  @media (min-width: 462px){
+    .kala{
+      position: relative;
+      left: 80px;
+    }
+  }

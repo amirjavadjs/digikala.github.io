@@ -1,0 +1,29 @@
+{% extends 'accounts/shared/_MainLayout.html' %}
+{% load static %}
+
+{% block page_title %}
+<title>دیجی کالا | ثبت نام</title>
+{% endblock %}
+
+{% block content %}
+<div class="container d-flex justify-content-center align-items-center " style="margin-top:120px ;">
+    <div class="row">
+        <div class="card clearfix py-5 px-5 d-flex ">
+            <img src="{% static 'img/logo11.svg' %}" alt="" class=" d-block card-img-top card-img images mx-auto" style="width:150px;height: 100px;">
+            <h6 class=" card-title d-flex justify-content-end mt-2">
+                <a href="../login/login.html">ورود |</a><a href="../sin/sin.html">ثبت نام</a>
+            </h6>
+            <p class="card-text mt-2" style="font-size: 14px; color: darkgrey; direction: rtl; text-align:right;line-height: 40px;">سلام!
+                برای ورد به وبسایت فرم را تکمیل کنید
+            </p>
+            <form method="post" class="form mx-auto" autocomplete="off">
+                {% csrf_token %}
+                {{ login_form.username }}
+                {{ login_form.password }}
+                <input type="submit" id="btn" onclick="show()" class="mt-2 px-5 btn btn-danger d-block w-100 mx-auto" value="ورود" style="border-radius: 5px; outline:none;">
+            </form>
+            <p class="text-caption color-700 mt-4" style="font-size: 10px;">با ورود به دیجی‌کالا،<a class="mx-1 d-inline-block text-primary" href="/page/terms/">شرایط دیجی‌کالا</a>و<a class="mx-1 d-inline-block text-primary" href="/page/privacy/">قوانین حریم‌خصوصی</a>را می‌پذیرم</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
